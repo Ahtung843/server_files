@@ -37,7 +37,7 @@ def upload():
     temp_path = f"/tmp/{file.filename}"
 
     try:
-        # Сохраняем файл напрямую на диск (без загрузки в память)
+        # Сохраняем файл напрямую на диск
         file.save(temp_path)
 
         # Подключаемся к MEGA
